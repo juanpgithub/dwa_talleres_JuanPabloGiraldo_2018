@@ -1,0 +1,46 @@
+.titulo_pokemon{
+	width: 40%;
+    padding: 3px 35px;
+    margin-left: 15%;
+    margin-top: 1%;
+    display:inline-block;
+    border-style: solid;
+    border-radius: 30px;
+}
+
+.nombre_pokemon{
+	font-size: 25px;
+    display: inline-block;
+    margin-left: 6%;
+
+}
+
+.info_pokemon{
+    display: inline-block;
+    width: 30%;
+    text-align: center;
+    padding: 10px 0px;
+    border-style: solid;
+    border-color: #f7f4f4;
+    border-radius: 8px;
+    background-color: #fffcfc;
+}
+
+.dato_pokemon{
+    display: inline-block;
+    width: 36%;
+    text-align: left;
+    padding: 2px 0px;
+    margin-top:2%;
+}
+
+.input_pokemon {
+    width: 80%;
+    display: block;
+    text-align: center;
+    margin-left: 10%;
+    font-family: inherit;
+    color: black;
+    background: transparent;
+    border:none;
+}
