@@ -31,3 +31,19 @@
 	margin-left: 20%;
     margin-right: 10%;
 }
+
+.imgPok_1{
+    @extend .sprite_1-pok_1;
+}
+
+.imgPok_2{
+    @extend .sprite_1-pok_2;
+}
+
+.imgPok_3{
+    @extend .sprite_1-pok_3;
+}
+
+.imgPok_4{
+    @extend .sprite_1-pok_4;
+}

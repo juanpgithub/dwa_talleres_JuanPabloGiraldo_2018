@@ -641,43 +641,71 @@ table {
 /*------------------------- Variables --------------------*/
 /*------------------------- Amor y amistad --------------------*/
 /*------------------------- Amor y amistad --------------------*/
-/* line 80, sprites/sprite_1/*.png */
-.sprite_1-sprite, .sprite_1-favicon, .sprite_1-icono_fuego, .imageIconoFuego, .sprite_1-pokebola, .imagePokebola, .sprite_1-pokemon_1, .imagePokemon1, .sprite_1-pokemon_cel, .imagePokemonPhone {
-  background-image: url('../img/sprites/sprite_1-s7e71537757.png');
+/* line 112, sprites/sprite_1/*.png */
+.sprite_1-sprite, .sprite_1-favicon, .sprite_1-icono_fuego, .imageIconoFuego, .sprite_1-pok_1, .imgPok_1, .sprite_1-pok_2, .imgPok_2, .sprite_1-pok_3, .imgPok_3, .sprite_1-pok_4, .imgPok_4, .sprite_1-pokebola, .imagePokebola, .sprite_1-pokemon_1, .imagePokemon1, .sprite_1-pokemon_cel, .imagePokemonPhone {
+  background-image: url('../img/sprites/sprite_1-s0c5e7999db.png');
   background-repeat: no-repeat;
 }
 
 /* line 84, ../../../../../../Ruby24-x64/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .sprite_1-favicon {
-  background-position: 0 0;
+  background-position: 0 -215px;
   height: 16px;
   width: 16px;
 }
 
 /* line 84, ../../../../../../Ruby24-x64/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .sprite_1-icono_fuego, .imageIconoFuego {
-  background-position: -16px 0;
+  background-position: -16px -215px;
   height: 38px;
   width: 38px;
 }
 
 /* line 84, ../../../../../../Ruby24-x64/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+.sprite_1-pok_1, .imgPok_1 {
+  background-position: -286px -215px;
+  height: 64px;
+  width: 64px;
+}
+
+/* line 84, ../../../../../../Ruby24-x64/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+.sprite_1-pok_2, .imgPok_2 {
+  background-position: -222px -215px;
+  height: 64px;
+  width: 64px;
+}
+
+/* line 84, ../../../../../../Ruby24-x64/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+.sprite_1-pok_3, .imgPok_3 {
+  background-position: -94px -215px;
+  height: 64px;
+  width: 64px;
+}
+
+/* line 84, ../../../../../../Ruby24-x64/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+.sprite_1-pok_4, .imgPok_4 {
+  background-position: -158px -215px;
+  height: 64px;
+  width: 64px;
+}
+
+/* line 84, ../../../../../../Ruby24-x64/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .sprite_1-pokebola, .imagePokebola {
-  background-position: -54px 0;
+  background-position: -54px -215px;
   height: 40px;
   width: 40px;
 }
 
 /* line 84, ../../../../../../Ruby24-x64/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .sprite_1-pokemon_1, .imagePokemon1 {
-  background-position: 0 -215px;
+  background-position: 0 -279px;
   height: 475px;
   width: 475px;
 }
 
 /* line 84, ../../../../../../Ruby24-x64/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .sprite_1-pokemon_cel, .imagePokemonPhone {
-  background-position: -94px 0;
+  background-position: 0 0;
   height: 215px;
   width: 215px;
 }
@@ -1595,8 +1623,7 @@ main.mainCont {
     text-align: left;
     margin-left: 7%;
   }
-}
-@media screen and (max-width: 630px) {
+
   /* line 1, ../sass/footer/_media003.scss */
   .titulo_others {
     background: transparent;
@@ -1622,8 +1649,8 @@ main.mainCont {
 
   /* line 21, ../sass/footer/_media003.scss */
   .pokemon_footer {
-    width: 55px;
-    height: 50px;
+    width: 65px;
+    height: 55px;
     margin-left: 20%;
     margin-top: 0%;
   }
