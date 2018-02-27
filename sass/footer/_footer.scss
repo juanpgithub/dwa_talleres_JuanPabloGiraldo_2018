@@ -1,7 +1,7 @@
 .container_footer {
-    width: 56%;
+    width: 66%;
     margin-left: 20%;
-    margin-top: 7%;
+    margin-top: 1%;
     border-radius: 15px;
     background-color: #f11f1f;
 }
@@ -35,9 +35,11 @@
     border-radius: 11px;
            
        &:hover {
-            background: #060693;
+            background: #3d54d2;
             cursor: pointer;
+            transform: scale(1.15); 
         }
 }
+
  
 

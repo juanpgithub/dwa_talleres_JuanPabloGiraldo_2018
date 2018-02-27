@@ -12,6 +12,7 @@
     @extend .sprite_1-pokebola;
     display: inline-block;
     margin-left: 4%;
+    border-radius: 25px;
 }
 
 .imageIconoFuego {
@@ -23,12 +24,15 @@
 .imagePokemon1{
 	@extend .sprite_1-pokemon_1;
 	display:inline-block;
+    margin-left: 25%;
+    margin-top: 1%;
+    margin-bottom: 1%;
 }
 
 .imagePokemonPhone{
 	@extend .sprite_1-pokemon_cel;
-	display:inline-block;
-	margin-left: 20%;
+	display:none;
+	margin-left: 30%;
     margin-right: 10%;
 }
 

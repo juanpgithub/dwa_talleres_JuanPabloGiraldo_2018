@@ -1,7 +1,7 @@
 .titulo_pokemon{
-	width: 40%;
+	width: 60%;
     padding: 3px 35px;
-    margin-left: 15%;
+    margin-left: 20%;
     margin-top: 1%;
     display:inline-block;
     border-style: solid;
@@ -17,21 +17,20 @@
 
 .info_pokemon{
     display: inline-block;
-    width: 30%;
+    width: 25%;
+    margin-left: 5%;
     text-align: center;
-    padding: 10px 0px;
     border-style: solid;
     border-color: #f7f4f4;
     border-radius: 8px;
-    background-color: #fffcfc;
+    background-color: #dfdcdc;
 }
 
 .dato_pokemon{
     display: inline-block;
-    width: 36%;
+    width: 45%;
     text-align: left;
-    padding: 2px 0px;
-    margin-top:2%;
+    margin-top:5%;
 }
 
 .input_pokemon {
@@ -43,4 +42,5 @@
     color: black;
     background: transparent;
     border:none;
+    read-only:true;
 }

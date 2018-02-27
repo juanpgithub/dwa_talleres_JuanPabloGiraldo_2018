@@ -643,71 +643,71 @@ table {
 /*------------------------- Amor y amistad --------------------*/
 /* line 112, sprites/sprite_1/*.png */
 .sprite_1-sprite, .sprite_1-favicon, .sprite_1-icono_fuego, .imageIconoFuego, .sprite_1-pok_1, .imgPok_1, .sprite_1-pok_2, .imgPok_2, .sprite_1-pok_3, .imgPok_3, .sprite_1-pok_4, .imgPok_4, .sprite_1-pokebola, .imagePokebola, .sprite_1-pokemon_1, .imagePokemon1, .sprite_1-pokemon_cel, .imagePokemonPhone {
-  background-image: url('../img/sprites/sprite_1-s0c5e7999db.png');
+  background-image: url('../img/sprites/sprite_1-s4c2a2879b6.png');
   background-repeat: no-repeat;
 }
 
 /* line 84, ../../../../../../Ruby24-x64/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .sprite_1-favicon {
-  background-position: 0 -215px;
+  background-position: 0 -64px;
   height: 16px;
   width: 16px;
 }
 
 /* line 84, ../../../../../../Ruby24-x64/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .sprite_1-icono_fuego, .imageIconoFuego {
-  background-position: -16px -215px;
+  background-position: -16px -64px;
   height: 38px;
   width: 38px;
 }
 
 /* line 84, ../../../../../../Ruby24-x64/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .sprite_1-pok_1, .imgPok_1 {
-  background-position: -286px -215px;
+  background-position: -64px 0;
   height: 64px;
   width: 64px;
 }
 
 /* line 84, ../../../../../../Ruby24-x64/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .sprite_1-pok_2, .imgPok_2 {
-  background-position: -222px -215px;
+  background-position: 0 0;
   height: 64px;
   width: 64px;
 }
 
 /* line 84, ../../../../../../Ruby24-x64/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .sprite_1-pok_3, .imgPok_3 {
-  background-position: -94px -215px;
+  background-position: -94px -64px;
   height: 64px;
   width: 64px;
 }
 
 /* line 84, ../../../../../../Ruby24-x64/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .sprite_1-pok_4, .imgPok_4 {
-  background-position: -158px -215px;
+  background-position: -158px -64px;
   height: 64px;
   width: 64px;
 }
 
 /* line 84, ../../../../../../Ruby24-x64/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .sprite_1-pokebola, .imagePokebola {
-  background-position: -54px -215px;
+  background-position: -54px -64px;
   height: 40px;
   width: 40px;
 }
 
 /* line 84, ../../../../../../Ruby24-x64/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .sprite_1-pokemon_1, .imagePokemon1 {
-  background-position: 0 -279px;
-  height: 475px;
-  width: 475px;
+  background-position: 0 -288px;
+  height: 290px;
+  width: 280px;
 }
 
 /* line 84, ../../../../../../Ruby24-x64/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .sprite_1-pokemon_cel, .imagePokemonPhone {
-  background-position: 0 0;
-  height: 215px;
-  width: 215px;
+  background-position: 0 -128px;
+  height: 160px;
+  width: 163px;
 }
 
 /*------------------------- Internal features --------------------*/
@@ -1447,9 +1447,9 @@ header.headerCont h1 {
 
 /* line 1, ../sass/body/_body.scss */
 .titulo_pokemon {
-  width: 40%;
+  width: 60%;
   padding: 3px 35px;
-  margin-left: 15%;
+  margin-left: 20%;
   margin-top: 1%;
   display: inline-block;
   border-style: solid;
@@ -1466,25 +1466,24 @@ header.headerCont h1 {
 /* line 18, ../sass/body/_body.scss */
 .info_pokemon {
   display: inline-block;
-  width: 30%;
+  width: 25%;
+  margin-left: 5%;
   text-align: center;
-  padding: 10px 0px;
   border-style: solid;
   border-color: #f7f4f4;
   border-radius: 8px;
-  background-color: #fffcfc;
+  background-color: #dfdcdc;
 }
 
 /* line 29, ../sass/body/_body.scss */
 .dato_pokemon {
   display: inline-block;
-  width: 36%;
+  width: 45%;
   text-align: left;
-  padding: 2px 0px;
-  margin-top: 2%;
+  margin-top: 5%;
 }
 
-/* line 37, ../sass/body/_body.scss */
+/* line 36, ../sass/body/_body.scss */
 .input_pokemon {
   width: 80%;
   display: block;
@@ -1494,13 +1493,14 @@ header.headerCont h1 {
   color: black;
   background: transparent;
   border: none;
+  read-only: true;
 }
 
 /* line 1, ../sass/footer/_footer.scss */
 .container_footer {
-  width: 56%;
+  width: 66%;
   margin-left: 20%;
-  margin-top: 7%;
+  margin-top: 1%;
   border-radius: 15px;
   background-color: #f11f1f;
 }
@@ -1538,8 +1538,9 @@ header.headerCont h1 {
 }
 /* line 37, ../sass/footer/_footer.scss */
 .pokemon_footer:hover {
-  background: #060693;
+  background: #3d54d2;
   cursor: pointer;
+  transform: scale(1.15);
 }
 
 /* line 2, ../sass/_generales.scss */
@@ -1555,23 +1556,27 @@ main.mainCont {
 .imagePokebola {
   display: inline-block;
   margin-left: 4%;
+  border-radius: 25px;
 }
 
-/* line 17, ../sass/_generales.scss */
+/* line 18, ../sass/_generales.scss */
 .imageIconoFuego {
   display: inline-block;
   margin-left: 5%;
 }
 
-/* line 23, ../sass/_generales.scss */
+/* line 24, ../sass/_generales.scss */
 .imagePokemon1 {
   display: inline-block;
+  margin-left: 25%;
+  margin-top: 1%;
+  margin-bottom: 1%;
 }
 
-/* line 28, ../sass/_generales.scss */
+/* line 32, ../sass/_generales.scss */
 .imagePokemonPhone {
-  display: inline-block;
-  margin-left: 20%;
+  display: none;
+  margin-left: 30%;
   margin-right: 10%;
 }
 
@@ -1597,17 +1602,22 @@ main.mainCont {
 
   /* line 12, ../sass/body/_media002.scss */
   .imagePokemonPhone {
-    margin-left: 25%;
+    display: block;
   }
 
   /* line 16, ../sass/body/_media002.scss */
+  .imagePokemon1 {
+    display: none;
+  }
+
+  /* line 20, ../sass/body/_media002.scss */
   .info_pokemon {
     display: block;
     width: 60%;
     margin-left: 20%;
   }
 
-  /* line 22, ../sass/body/_media002.scss */
+  /* line 26, ../sass/body/_media002.scss */
   .dato_pokemon {
     display: block;
     width: 90%;
@@ -1615,7 +1625,7 @@ main.mainCont {
     padding: 0px;
   }
 
-  /* line 29, ../sass/body/_media002.scss */
+  /* line 33, ../sass/body/_media002.scss */
   .input_pokemon {
     display: inline;
     width: 37%;
@@ -1636,18 +1646,19 @@ main.mainCont {
   .container_footer {
     margin-top: 2%;
     width: 100%;
+    height: 152px;
     margin-left: 0%;
     border-radius: 0%;
   }
 
-  /* line 15, ../sass/footer/_media003.scss */
+  /* line 16, ../sass/footer/_media003.scss */
   .lista_pokemones {
     width: 74%;
     margin-left: 13%;
     text-align: left;
   }
 
-  /* line 21, ../sass/footer/_media003.scss */
+  /* line 22, ../sass/footer/_media003.scss */
   .pokemon_footer {
     width: 65px;
     height: 55px;
