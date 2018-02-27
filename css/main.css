@@ -1470,18 +1470,17 @@ header.headerCont h1 {
 
 /* line 1, ../sass/footer/_footer.scss */
 .container_footer {
-  width: 60%;
+  width: 56%;
   margin-left: 20%;
   margin-top: 7%;
-  height: 125px;
   border-radius: 15px;
   background-color: #f11f1f;
 }
 
-/* line 10, ../sass/footer/_footer.scss */
+/* line 9, ../sass/footer/_footer.scss */
 .titulo_others {
   background: transparent;
-  width: 20%;
+  width: 22%;
   margin-left: 5%;
   margin-top: 6%;
   font-family: 'HeroRegular';
@@ -1491,14 +1490,28 @@ header.headerCont h1 {
   border: none;
 }
 
-/* line 2, ../sass/menu/_menu.scss */
-ul.listaCont {
-  font-family: 'Amatic';
-  font-size: 35px;
+/* line 21, ../sass/footer/_footer.scss */
+.lista_pokemones {
+  width: 70%;
+  display: inline-block;
+  text-align: center;
 }
-/* line 6, ../sass/menu/_menu.scss */
-ul.listaCont li {
-  color: blue;
+
+/* line 27, ../sass/footer/_footer.scss */
+.pokemon_footer {
+  display: inline-block;
+  background: white;
+  width: 70px;
+  height: 65px;
+  margin-left: 5%;
+  margin-top: 3%;
+  text-align: center;
+  border-radius: 11px;
+}
+/* line 37, ../sass/footer/_footer.scss */
+.pokemon_footer:hover {
+  background: #060693;
+  cursor: pointer;
 }
 
 /* line 2, ../sass/_generales.scss */
@@ -1581,5 +1594,37 @@ main.mainCont {
     font-size: 14px;
     text-align: left;
     margin-left: 7%;
+  }
+}
+@media screen and (max-width: 630px) {
+  /* line 1, ../sass/footer/_media003.scss */
+  .titulo_others {
+    background: transparent;
+    width: 90%;
+    margin-top: 2%;
+    font-size: 11px;
+  }
+
+  /* line 8, ../sass/footer/_media003.scss */
+  .container_footer {
+    margin-top: 2%;
+    width: 100%;
+    margin-left: 0%;
+    border-radius: 0%;
+  }
+
+  /* line 15, ../sass/footer/_media003.scss */
+  .lista_pokemones {
+    width: 74%;
+    margin-left: 13%;
+    text-align: left;
+  }
+
+  /* line 21, ../sass/footer/_media003.scss */
+  .pokemon_footer {
+    width: 55px;
+    height: 50px;
+    margin-left: 20%;
+    margin-top: 0%;
   }
 }
