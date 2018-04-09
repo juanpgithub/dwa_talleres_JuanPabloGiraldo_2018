@@ -44,7 +44,11 @@
     read-only: true;
   }
   .like_pokemon{
-    margin-bottom: 1%;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    margin-top: 1%;
+    margin-bottom: 2%;
   }
   .numero_likes{
     display: block;
@@ -59,3 +63,66 @@
     border: none;
 }
  
+@media screen and (max-width: 630px ) {
+	.titulo_pokemon {
+        width: 68%;
+        padding: 1px 34px;
+        margin-left: 8%;
+    }
+        
+    
+    .nombre_pokemon {
+        font-size: 18px;
+    }
+    
+    .imagePokemonPhone{
+        display: block;
+    }
+    
+    .imagePokemon1{
+        display:none;
+    }
+    
+    .info_pokemon {
+        display: block;
+        width: 60%;
+        margin-left: 20%;
+    }
+    
+    .dato_pokemon {
+        display: block; 
+        width: 90%;
+        margin-left: 5%;
+        padding: 0px;
+    }
+    
+    .input_pokemon {
+        display: inline;
+        width: 37%;
+        font-size: 14px;
+        text-align: left;
+        margin-left: 7%;
+    }
+
+    .like_pokemon{
+        display: block;
+        width: 90%;
+        margin-left: 5%;
+        text-align: left;
+        padding: 0px;
+    }
+
+    .numero_likes{
+        display: inline;
+        background-color: transparent;
+        text-align: left;
+        width: 5%;
+        margin-left: 15%;
+        margin-right: 17%;
+        margin-top: 2%;
+        margin-bottom: 2%;
+        font-family: Tahoma;
+        font-size: 17px;
+        border: none;
+    }
+}

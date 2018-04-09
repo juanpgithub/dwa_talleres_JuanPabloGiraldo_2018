@@ -8,3 +8,10 @@ header.headerCont{
     background: linear-gradient(45deg, #f70303 0%, #f5f6f7 100%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#009ec3',GradientType=1 );
   }
+
+@media screen and (max-width: 440px){
+  header.headerCont h1{
+      text-align: center;
+      margin-left:2%;
+  }
+}
