@@ -33,6 +33,11 @@
         <input type="text" value="WEIGHT" class="input_pokemon" readonly="true">
         <input type="text" value="198,0 Kg" class="input_pokemon" readonly="true">
       </div>
+      <div class="like_pokemon">
+        <input type="text" value="1" class="numero_likes" id="num_likes" readonly="true">
+        <button class="btn_like" (click)="sumarLike($event)">+Like</button>
+        <button class="btn_like" (click)="restarLike($event)">-Like</button>
+      </div>
     </div>
 
   </div>
