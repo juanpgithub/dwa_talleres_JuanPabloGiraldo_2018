@@ -1,0 +1,16 @@
+.titulo_pokemon {
+    width: 60%;
+    padding: 3px 35px;
+    margin-left: 20%;
+    margin-top: 1%;
+    display: inline-block;
+    border-style: solid;
+    border-radius: 30px;
+  }
+
+  .nombre_pokemon {
+    font-size: 25px;
+    display: inline-block;
+    margin-left: 6%;
+  }
+  
