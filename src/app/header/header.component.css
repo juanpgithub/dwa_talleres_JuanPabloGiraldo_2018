@@ -9,6 +9,19 @@ header.headerCont{
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#009ec3',GradientType=1 );
   }
 
+  header.headerCont h1{
+    margin: 0px;
+    width: 60%;
+    margin-left: 2%;
+    display: inline-block;
+  }
+
+.imagePokebola {
+    display: inline-block;
+    margin-left: 4%;
+    border-radius: 25px;
+}
+
 @media screen and (max-width: 440px){
   header.headerCont h1{
       text-align: center;
