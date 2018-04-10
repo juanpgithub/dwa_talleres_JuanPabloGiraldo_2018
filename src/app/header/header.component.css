@@ -22,6 +22,13 @@ header.headerCont{
     border-radius: 25px;
 }
 
+.flecha_like{
+  width: 15%;
+}
+.flecha_no_like{
+  width: 15%;
+}
+
 @media screen and (max-width: 440px){
   header.headerCont h1{
       text-align: center;
