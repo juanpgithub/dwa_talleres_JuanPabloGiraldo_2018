@@ -1,0 +1,123 @@
+[
+  {
+    "id": 1,
+    "NO": "001",
+    "level": 12,
+    "type": "fire",
+    "hability": "blaze",
+    "height": "jnk",
+    "weight": "jkjk",
+    "src_img": "kjkk"
+  },
+  {
+    "id": 2,
+    "NO": "002",
+    "level": 12,
+    "type": "fire",
+    "hability": "blaze",
+    "height": "jnk",
+    "weight": "jkjk",
+    "src_img": "kjkk"
+  },
+  {
+    "id": 3,
+    "NO": "003",
+    "level": 12,
+    "type": "fire",
+    "hability": "blaze",
+    "height": "jnk",
+    "weight": "jkjk",
+    "src_img": "kjkk"
+  },
+  {
+    "id": 4,
+    "NO": "004",
+    "level": 12,
+    "type": "fire",
+    "hability": "blaze",
+    "height": "jnk",
+    "weight": "jkjk",
+    "src_img": "kjkk"
+  },
+  {
+    "id": 5,
+    "NO": "005",
+    "level": 12,
+    "type": "fire",
+    "hability": "blaze",
+    "height": "jnk",
+    "weight": "jkjk",
+    "src_img": "kjkk"
+  },
+  {
+    "id": 6,
+    "NO": "006",
+    "level": 12,
+    "type": "fire",
+    "hability": "blaze",
+    "height": "jnk",
+    "weight": "jkjk",
+    "src_img": "kjkk"
+  },
+  {
+    "id": 7,
+    "NO": "007",
+    "level": 12,
+    "type": "fire",
+    "hability": "blaze",
+    "height": "jnk",
+    "weight": "jkjk",
+    "src_img": "kjkk"
+  },
+  {
+    "id": 8,
+    "NO": "008",
+    "level": 12,
+    "type": "fire",
+    "hability": "blaze",
+    "height": "jnk",
+    "weight": "jkjk",
+    "src_img": "kjkk"
+  },
+  {
+    "id": 9,
+    "NO": "009",
+    "level": 12,
+    "type": "fire",
+    "hability": "blaze",
+    "height": "jnk",
+    "weight": "jkjk",
+    "src_img": "kjkk"
+  },
+  {
+    "id": 10,
+    "NO": "010",
+    "level": 12,
+    "type": "fire",
+    "hability": "blaze",
+    "height": "jnk",
+    "weight": "jkjk",
+    "src_img": "kjkk"
+  },
+  {
+    "id": 11,
+    "NO": "011",
+    "level": 12,
+    "type": "fire",
+    "hability": "blaze",
+    "height": "jnk",
+    "weight": "jkjk",
+    "src_img": "kjkk"
+  },
+  {
+    "id": 12,
+    "NO": "012",
+    "level": 12,
+    "type": "fire",
+    "hability": "blaze",
+    "height": "jnk",
+    "weight": "jkjk",
+    "src_img": "kjkk"
+  }
+
+]
