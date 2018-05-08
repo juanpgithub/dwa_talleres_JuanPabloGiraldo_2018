@@ -71,6 +71,47 @@
     margin-left: 5%;
 }
 
+.img_iconos{
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 5px;
+    width: 40px;
+    height: 36px;
+    background: url(../../assets/img/types.png) top no-repeat;
+}
+
+.icono_Water{
+    background-position: -14px -16px;
+}
+
+.icono_Fire{
+    background-position: -51px -16px;
+}
+
+.icono_Grass{
+    background-position: -91px -16px;
+}
+
+.icono_Ice{
+    background-position: -14px -71px;
+}
+
+.icono_Electric{
+    background-position: -51px -71px;
+}
+
+.icono_Dragon{
+    background-position: -91px -71px;
+}
+
+.icono_Psychic{
+    background-position: -171px -71px;
+}
+
+.icono_Bug{
+    background-position: -91px -126px;
+}
+
 .imagePokemon{
     width: 100%;
     height: 100%;

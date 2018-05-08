@@ -2,7 +2,7 @@
   {
     "id": 1,
     "NO": "001",
-    "Nombre":"Bulbasaur",
+    "nombre":"Bulbasaur",
     "level": "12",
     "type": "Grass",
     "hability": "Overgrow",
@@ -13,7 +13,7 @@
   {
     "id": 2,
     "NO": "004",
-    "Nombre":"Charmander",
+    "nombre":"Charmander",
     "level": "12",
     "type": "Fire",
     "hability": "Blaze",
@@ -24,7 +24,7 @@
   {
     "id": 3,
     "NO": "007",
-    "Nombre":"Squirtle",
+    "nombre":"Squirtle",
     "level": "12",
     "type": "Water",
     "hability": "Torrent",
@@ -35,7 +35,7 @@
   {
     "id": 4,
     "NO": "012",
-    "Nombre":"Butterfree",
+    "nombre":"Butterfree",
     "level": "12",
     "type": "Bug",
     "hability": "Compound Eyes",
@@ -46,7 +46,7 @@
   {
     "id": 5,
     "NO": "025",
-    "Nombre":"Pikachu",
+    "nombre":"Pikachu",
     "level": "12",
     "type": "Electric",
     "hability": "Static",
@@ -58,7 +58,7 @@
   {
     "id": 6,
     "NO": "148",
-    "Nombre":"Dragonair",
+    "nombre":"Dragonair",
     "level": "12",
     "type": "Dragon",
     "hability": "Shed Skin",
@@ -69,7 +69,7 @@
   {
     "id": 7,
     "NO": "149",
-    "Nombre":"Dragonite",
+    "nombre":"Dragonite",
     "level": "12",
     "type": "Dragon",
     "hability": "Inner Focus",
@@ -80,7 +80,7 @@
   {
     "id": 8,
     "NO": "144",
-    "Nombre":"Articuno",
+    "nombre":"Articuno",
     "level": "12",
     "type": "Ice",
     "hability": "Pressure",
@@ -91,7 +91,7 @@
   {
     "id": 9,
     "NO": "145",
-    "Nombre":"Zapdos",
+    "nombre":"Zapdos",
     "level": "12",
     "type": "Electric",
     "hability": "Pressure",
@@ -102,7 +102,7 @@
   {
     "id": 10,
     "NO": "146",
-    "Nombre":"Moltres",
+    "nombre":"Moltres",
     "level": "12",
     "type": "Fire",
     "hability": "Pressure",
@@ -113,10 +113,10 @@
   {
     "id": 11,
     "NO": "150",
-    "Nombre":"Mewtwo",
+    "nombre":"Mewtwo",
     "level": "12",
-    "type": "Pressure",
-    "hability": "Psychic",
+    "type": "Psychic",
+    "hability": "Pressure",
     "height": "2,0 m",
     "weight": "122,0 Kg",
     "src_img": "../../assets/img/pokemones/mewtwo.png"
@@ -124,7 +124,7 @@
   {
     "id": 12,
     "NO": "151",
-    "Nombre":"Mew",
+    "nombre":"Mew",
     "level": "12",
     "type": "Psychic",
     "hability": "Synchronize",

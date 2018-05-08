@@ -1,7 +1,7 @@
 <div *ngIf="parametro && lista_pokemones">
   <div class="titulo_pokemon">
-    <img class="imageIconoFuego" src="../../assets/img/sprites/icono_fuego.png">
-    <h1 class="nombre_pokemon">{{lista_pokemones[parametro-1].Nombre}}</h1>
+    <div class="img_iconos icono_{{lista_pokemones[parametro-1].type}}"></div>
+    <h1 class="nombre_pokemon">{{lista_pokemones[parametro-1].nombre}}</h1>
   </div>
 
   <div>
