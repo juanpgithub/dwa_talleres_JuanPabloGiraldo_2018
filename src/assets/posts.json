@@ -2,122 +2,137 @@
   {
     "id": 1,
     "NO": "001",
-    "level": 12,
-    "type": "fire",
-    "hability": "blaze",
-    "height": "jnk",
-    "weight": "jkjk",
-    "src_img": "kjkk"
+    "Nombre":"Bulbasaur",
+    "level": "12",
+    "type": "Grass",
+    "hability": "Overgrow",
+    "height": "0,7 m",
+    "weight": " 6,9 Kg",
+    "src_img": "../../assets/img/pokemones/bulbasaur.png"
   },
   {
     "id": 2,
-    "NO": "002",
-    "level": 12,
-    "type": "fire",
-    "hability": "blaze",
-    "height": "jnk",
-    "weight": "jkjk",
-    "src_img": "kjkk"
+    "NO": "004",
+    "Nombre":"Charmander",
+    "level": "12",
+    "type": "Fire",
+    "hability": "Blaze",
+    "height": "0,6 m",
+    "weight": "8,5 Kg",
+    "src_img": "../../assets/img/pokemones/charmander.png"
   },
   {
     "id": 3,
-    "NO": "003",
-    "level": 12,
-    "type": "fire",
-    "hability": "blaze",
-    "height": "jnk",
-    "weight": "jkjk",
-    "src_img": "kjkk"
+    "NO": "007",
+    "Nombre":"Squirtle",
+    "level": "12",
+    "type": "Water",
+    "hability": "Torrent",
+    "height": "0,5 m",
+    "weight": "9,0 Kg",
+    "src_img": "../../assets/img/pokemones/squirtle.png"
   },
   {
     "id": 4,
-    "NO": "004",
-    "level": 12,
-    "type": "fire",
-    "hability": "blaze",
-    "height": "jnk",
-    "weight": "jkjk",
-    "src_img": "kjkk"
+    "NO": "012",
+    "Nombre":"Butterfree",
+    "level": "12",
+    "type": "Bug",
+    "hability": "Compound Eyes",
+    "height": "1,1 m",
+    "weight": "32,0 Kg",
+    "src_img": "../../assets/img/pokemones/buterfree.png"
   },
   {
     "id": 5,
-    "NO": "005",
-    "level": 12,
-    "type": "fire",
-    "hability": "blaze",
-    "height": "jnk",
-    "weight": "jkjk",
-    "src_img": "kjkk"
+    "NO": "025",
+    "Nombre":"Pikachu",
+    "level": "12",
+    "type": "Electric",
+    "hability": "Static",
+    "height": "0,4 m",
+    "weight": "6,0 Kg",
+    "src_img": "../../assets/img/pokemones/pikachu.png"
   },
+  
   {
     "id": 6,
-    "NO": "006",
-    "level": 12,
-    "type": "fire",
-    "hability": "blaze",
-    "height": "jnk",
-    "weight": "jkjk",
-    "src_img": "kjkk"
+    "NO": "148",
+    "Nombre":"Dragonair",
+    "level": "12",
+    "type": "Dragon",
+    "hability": "Shed Skin",
+    "height": "4,0 m",
+    "weight": "16,5 Kg",
+    "src_img": "../../assets/img/pokemones/dragonair.png"
   },
   {
     "id": 7,
-    "NO": "007",
-    "level": 12,
-    "type": "fire",
-    "hability": "blaze",
-    "height": "jnk",
-    "weight": "jkjk",
-    "src_img": "kjkk"
+    "NO": "149",
+    "Nombre":"Dragonite",
+    "level": "12",
+    "type": "Dragon",
+    "hability": "Inner Focus",
+    "height": "2,2 m",
+    "weight": "210,0 Kg",
+    "src_img": "../../assets/img/pokemones/dragonite.png"
   },
   {
     "id": 8,
-    "NO": "008",
-    "level": 12,
-    "type": "fire",
-    "hability": "blaze",
-    "height": "jnk",
-    "weight": "jkjk",
-    "src_img": "kjkk"
+    "NO": "144",
+    "Nombre":"Articuno",
+    "level": "12",
+    "type": "Ice",
+    "hability": "Pressure",
+    "height": "1,7 m",
+    "weight": "55,4 Kg",
+    "src_img": "../../assets/img/pokemones/articuno.png"
   },
   {
     "id": 9,
-    "NO": "009",
-    "level": 12,
-    "type": "fire",
-    "hability": "blaze",
-    "height": "jnk",
-    "weight": "jkjk",
-    "src_img": "kjkk"
+    "NO": "145",
+    "Nombre":"Zapdos",
+    "level": "12",
+    "type": "Electric",
+    "hability": "Pressure",
+    "height": "1,6 m",
+    "weight": "52,6 Kg",
+    "src_img": "../../assets/img/pokemones/zaptos.png"
   },
   {
     "id": 10,
-    "NO": "010",
-    "level": 12,
-    "type": "fire",
-    "hability": "blaze",
-    "height": "jnk",
-    "weight": "jkjk",
-    "src_img": "kjkk"
+    "NO": "146",
+    "Nombre":"Moltres",
+    "level": "12",
+    "type": "Fire",
+    "hability": "Pressure",
+    "height": "2,0 m",
+    "weight": "60,0 Kg",
+    "src_img": "../../assets/img/pokemones/moltres.png"
   },
   {
     "id": 11,
-    "NO": "011",
-    "level": 12,
-    "type": "fire",
-    "hability": "blaze",
-    "height": "jnk",
-    "weight": "jkjk",
-    "src_img": "kjkk"
+    "NO": "150",
+    "Nombre":"Mewtwo",
+    "level": "12",
+    "type": "Pressure",
+    "hability": "Psychic",
+    "height": "2,0 m",
+    "weight": "122,0 Kg",
+    "src_img": "../../assets/img/pokemones/mewtwo.png"
   },
   {
     "id": 12,
-    "NO": "012",
-    "level": 12,
-    "type": "fire",
-    "hability": "blaze",
-    "height": "jnk",
-    "weight": "jkjk",
-    "src_img": "kjkk"
+    "NO": "151",
+    "Nombre":"Mew",
+    "level": "12",
+    "type": "Psychic",
+    "hability": "Synchronize",
+    "height": "0,4 m",
+    "weight": "4,0 Kg",
+    "src_img": "../../assets/img/pokemones/mew.png"
   }
-
 ]
+  
+  
+  
