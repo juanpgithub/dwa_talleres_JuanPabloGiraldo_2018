@@ -71,17 +71,9 @@
     margin-left: 5%;
 }
 
-.imagePokemon1{
-	display:inline-block;
-    margin-left: 25%;
-    margin-top: 1%;
-    margin-bottom: 1%;
-}
-
-.imagePokemonPhone{
-	display:none;
-	margin-left: 30%;
-    margin-right: 10%;
+.imagePokemon{
+    width: 100%;
+    height: 100%;
 }
 
 .btn_like{
@@ -90,27 +82,31 @@
 }
 
 .flecha_like{
-width: 100%
+    width: 100%
+}
+
+.cont_img{
+    margin-top: 5%;
+    width: 250px;
+    height: 250px;
+    margin-left: 25%;
+    margin-bottom: 2%;
+    display: inline-block;
 }
  
-@media screen and (max-width: 630px ) {
+@media screen and (max-width: 600px ) {
 	.titulo_pokemon {
         width: 68%;
         padding: 1px 34px;
         margin-left: 8%;
     }
         
-    
     .nombre_pokemon {
         font-size: 18px;
     }
     
-    .imagePokemonPhone{
-        display: block;
-    }
-    
     .imagePokemon1{
-        display:none;
+        text-align: center;
     }
     
     .info_pokemon {
@@ -154,5 +150,14 @@ width: 100%
         font-family: Tahoma;
         font-size: 17px;
         border: none;
+    }
+
+    .cont_img{
+        margin-top: 5%;
+        width: 60%;
+        height: 200px;
+        margin-left: 20%;
+        margin-bottom: 2%;
+        display: block;
     }
 }
