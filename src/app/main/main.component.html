@@ -1,41 +1,37 @@
-<div *ngIf="parametro">
-  <div>{{lista_pokemones[parametro-1].Nombre}}</div>
-</div>
-
-<div>
+<div *ngIf="parametro && lista_pokemones">
   <div class="titulo_pokemon">
     <img class="imageIconoFuego" src="../../assets/img/sprites/icono_fuego.png">
-    <h1 class="nombre_pokemon">ENTEI</h1>
+    <h1 class="nombre_pokemon">{{lista_pokemones[parametro-1].Nombre}}</h1>
   </div>
 
   <div>
-    <img class="imagePokemon1" src="../../assets/img/sprites/pokemon_1.png">
-    <img class="imagePokemonPhone" src="../../assets/img/sprites/pokemon_cel.png">
+    <img class="imagePokemon1" src={{lista_pokemones[parametro-1].src_img}}>
+    <!-- <img class="imagePokemonPhone" src="../../assets/img/sprites/pokemon_cel.png"> -->
 
     <div class="info_pokemon">
       <div class="dato_pokemon">
         <input type="text" value="NO" class="input_pokemon" readonly="true">
-        <input type="text" value="244" class="input_pokemon" readonly="true">
+        <input type="text" value={{lista_pokemones[parametro-1].NO}} class="input_pokemon" readonly="true">
       </div>
       <div class="dato_pokemon">
         <input type="text" value="LEVEL" class="input_pokemon" readonly="true">
-        <input type="text" value="100" class="input_pokemon" readonly="true">
+        <input type="text" value={{lista_pokemones[parametro-1].level}} class="input_pokemon" readonly="true">
       </div>
       <div class="dato_pokemon">
         <input type="text" value="TYPE" class="input_pokemon" readonly="true">
-        <input type="text" value="FIRE" class="input_pokemon" readonly="true">
+        <input type="text" value={{lista_pokemones[parametro-1].type}} class="input_pokemon" readonly="true">
       </div>
       <div class="dato_pokemon">
         <input type="text" value="HABILITY" class="input_pokemon" readonly="true">
-        <input type="text" value="PRESSURE" class="input_pokemon" readonly="true">
+        <input type="text" value={{lista_pokemones[parametro-1].hability}} class="input_pokemon" readonly="true">
       </div>
       <div class="dato_pokemon">
         <input type="text" value="HEIGHT" class="input_pokemon" readonly="true">
-        <input type="text" value="2,1 m" class="input_pokemon" readonly="true">
+        <input type="text" value={{lista_pokemones[parametro-1].height}} class="input_pokemon" readonly="true">
       </div>
       <div class="dato_pokemon">
         <input type="text" value="WEIGHT" class="input_pokemon" readonly="true">
-        <input type="text" value="198,0 Kg" class="input_pokemon" readonly="true">
+        <input type="text" value={{lista_pokemones[parametro-1].weight}} class="input_pokemon" readonly="true">
       </div>
       <div class="like_pokemon">
         <input type="text" value="1" class="numero_likes" id="num_likes" readonly="true">
