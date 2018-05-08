@@ -41,7 +41,7 @@
     "hability": "Compound Eyes",
     "height": "1,1 m",
     "weight": "32,0 Kg",
-    "src_img": "../../assets/img/pokemones/buterfree.png"
+    "src_img": "../../assets/img/pokemones/butterfree.png"
   },
   {
     "id": 5,
@@ -97,7 +97,7 @@
     "hability": "Pressure",
     "height": "1,6 m",
     "weight": "52,6 Kg",
-    "src_img": "../../assets/img/pokemones/zaptos.png"
+    "src_img": "../../assets/img/pokemones/zapdos.png"
   },
   {
     "id": 10,

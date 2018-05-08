@@ -4,7 +4,16 @@
 
 <!-- <img class="imgPok_1" src="../../assets/img/pokemones/bulbasaur.png"> -->
 
-<div class="container_home">
+<div class="container_home" >
+    <div class="lista_pokemones">
+        <div class="pokemon_home" *ngFor="let pok of pokemones;" >
+            <img class="imgPok" src={{pok.src_img}}>
+          </div>
+    </div>
+
+</div>
+
+<!-- <div class="container_home">
     <div class="lista_pokemones">
       <div class="pokemon_home">
         <img class="imgPok_1" src="../../assets/img/sprites/pok_1.png">
@@ -43,4 +52,4 @@
         <img class="imgPok_4" src="../../assets/img/sprites/pok_4.png">
     </div>
     </div>
-  </div>
+  </div> -->
