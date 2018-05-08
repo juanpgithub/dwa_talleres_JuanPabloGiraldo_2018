@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Router, ActivatedRoute, Params } from '@angular/router';
 
 @Component({
   selector: 'app-main',
@@ -7,10 +8,20 @@ import { Component, OnInit } from '@angular/core';
 })
 export class MainComponent implements OnInit {
 
-  constructor() { }
+  public parametro: string;
+
+  constructor(
+    private _route: ActivatedRoute,
+    private _router: Router
+  ) { }
 
   ngOnInit() {
+    this._route.params.forEach((params:Params) => {
+      this.parametro = params['ident'];
+      console.log(params);
+    });
   }
+
 
   public sumarLike(event){
     var likes = <HTMLInputElement>document.getElementById("num_likes");
