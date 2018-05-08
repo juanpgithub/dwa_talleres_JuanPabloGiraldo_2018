@@ -7,8 +7,7 @@ import { MainComponent } from './main/main.component';
 const appRoutes: Routes = [
     { path:'', component:HomeComponent },
     { path:'home', component:HomeComponent },
-    { path:'main', component:MainComponent },
-    { path:'main/:ident', component:MainComponent }
+    { path:'pokemon/:ident', component:MainComponent }
     // { path:'**', component:FrutasComponent }
 ];
 
